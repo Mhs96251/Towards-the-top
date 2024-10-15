@@ -20,3 +20,4 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
     
     if (username === "admin" && password === "password") {
         alert
+        document.getElementById('language').addEventListener('change',function(){let selectedLanguage=this.value;if(selectedLanguage==='en'){
